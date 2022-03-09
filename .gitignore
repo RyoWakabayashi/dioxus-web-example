@@ -1,0 +1,7 @@
+/target
+/dist
+
+tailwind.css
+
+# Node.js
+/node_modules
