@@ -10,8 +10,6 @@ fn main() {
 }
 
 fn app(cx: Scope) -> Element {
-    let (count, set_count) = use_state(&cx, || 0);
-
     cx.render(rsx!(
         div {
             class: "flex justify-center p-2 mt-5",
